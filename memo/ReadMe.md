@@ -75,7 +75,7 @@ node {
 
 ```
 
-2. 시도중
+2. 시도중 
 
 ```
 pipeline {
@@ -190,10 +190,8 @@ pipeline {
 
 ```
 
-FROM openjdk:17
-EXPOSE 8080
-ADD build/libs/git-action-repository.jar git-action-repository.jar
-ENTRYPOINT ["java","-jar","git-action-repository.jar"]
+3. 시도중
+- dockerFile 안에서 Maven build까지 함
 
 ```text
 pipeline {
