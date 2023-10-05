@@ -220,7 +220,7 @@ pipeline {
 ```
 
 
-3. 로컬에서는 성공
+3. 성공
 ![컨테이너 띄우고](./image/docker-succes1.png)
 ![웹까지](./image/swagger-success1.png)
 
